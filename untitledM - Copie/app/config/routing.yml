@@ -1,0 +1,7 @@
+my_app_revision:
+    resource: "@MyAppRevisionBundle/Resources/config/routing.yml"
+    prefix:   /api
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

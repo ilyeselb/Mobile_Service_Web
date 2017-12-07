@@ -1,0 +1,7 @@
+my_app_revision_homepage:
+    path:     /
+    defaults: { _controller: MyAppRevisionBundle:Default:index }
+all:
+    path:     /Revision/all
+    defaults: { _controller: MyAppRevisionBundle:Revision:All }
+
